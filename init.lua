@@ -18,6 +18,9 @@ vim.o.number = true
 --  Experiment for yourself to see if you like it!
 vim.o.relativenumber = true
 
+vim.o.wrap = true
+vim.o.linebreak = true
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
 
@@ -594,7 +597,6 @@ require('lazy').setup({
         gopls = {},
         pyright = {},
         -- rust_analyzer = {},
-        elixir_ls = {},
         lexical = {},
         ruff = {},
         sqls = {},
